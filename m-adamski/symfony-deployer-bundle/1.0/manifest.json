@@ -1,0 +1,8 @@
+{
+    "bundles": {
+        "Adamski\\Symfony\\DeployerBundle\\DeployerBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        ".deployer/": "%SRC_DIR%/../"
+    }
+}
